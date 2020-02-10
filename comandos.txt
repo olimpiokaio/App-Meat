@@ -1,0 +1,24 @@
+﻿#intrução de leitura de codigo inicio
+
+<> ......... significa que tudo entre as tagues são codigos para o terminal
+() ......... comentarios referentes aos comandos acima dele
+
+#intrução de leitura de codigo fim
+
+
+< ng new jedi-acedemy --prefix=jad >
+( comando utilizado para criar uma aplicação Angular jedi-acedemy
+e o nome da minha aplicação e o prefix 'jad' foi adicionado para ser utilizado
+como padrão na frete de cada componente que for criado nesse projeto )
+
+< ng serve >
+(inicia o servidor da aplicação)
+
+< ng g c header --spec=false >
+( cria um novo componente, header e o nome do componente e --spec=false
+informa que não e para criar os arquivos de teste )
+
+< json-server db.json >
+(json-serve start àplicação e o db.json e o meu arquivo do projeto que contem os 
+dados no formato json, esse nome deve ser o mesmo do seu projeto local de dados
+json que deseva subir)
